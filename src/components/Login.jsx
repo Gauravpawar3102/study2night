@@ -22,7 +22,7 @@ function Login() {
               <div className="loginheading text-4xl tracking-widest font-bold my-2">
                 Login
               </div>
-              <div className="logincomment text-xs ">Login to get Started</div>
+              <div className="logincomment text-xs ">Login to get Started?</div>
             </div>
             <div className="login-right-main flex flex-col gap-4 mt-6">
               <div className="login-email ">
