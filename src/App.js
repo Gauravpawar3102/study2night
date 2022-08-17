@@ -1,5 +1,8 @@
 import Login from './components/Login';
 import Navbar from './components/Navbar';
+import Courses from './components/Courses';
+import Notes from './components/Notes';
+import Resources from './components/Resources';
 import {
   BrowserRouter as Router,
   Routes,
@@ -18,6 +21,9 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/login" element={<Login />} />
           <Route path="/signin" element={<Signin />} />
+          <Route path="/courses" element={<Courses />} />
+          <Route path="/notes" element={<Notes />} />
+          <Route path="/Resources" element={<Resources />} />
         </Routes>
       </Router>
     </div>

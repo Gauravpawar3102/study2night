@@ -14,10 +14,18 @@ function Navbar() {
       </div>
       <div className="Navbar-right-container text-l grow">
         <ul className="navlinks flex justify-evenly items-center">
-          <li>Home</li>
-          <li>Courses</li>
-          <li>Notes</li>
-          <li>Resources</li>
+          <li>
+            <Link to="/">Home</Link>
+          </li>
+          <li>
+            <Link to="/courses">Courses</Link>
+          </li>
+          <li>
+            <Link to="/notes">Notes</Link>
+          </li>
+          <li>
+            <Link to="/resources">Resources</Link>
+          </li>
           <Link
             to="/signin"
             className="nav-login-btn bg-blue-500 px-4 py-1 shadow-lg rounded-md text-white font-semibold "

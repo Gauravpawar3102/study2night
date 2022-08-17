@@ -30,7 +30,7 @@ function Login() {
           <div className="bottom-container flex flex-col mr-4">
             <div className="login-text ">
               <div className="loginheading text-3xl tracking-widest font-bold my-2">
-                Login
+                LOGIN
               </div>
               <div className="logincomment text-xs ">Login to get Started?</div>
             </div>
